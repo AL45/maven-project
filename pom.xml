@@ -15,7 +15,7 @@
 		<mule.version>3.8.0</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
 		<derby.version>10.12.1.1</derby.version>
-		
+
 		<activemq.client.version>5.13.3</activemq.client.version>
 		<mq.broker.version>5.13.3</mq.broker.version>
 		<mq.kahadb.version>5.13.3</mq.kahadb.version>
@@ -155,7 +155,7 @@
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<version>${derby.version}</version>
-			<!-- <scope>provided</scope>  -->
+			<!-- <scope>provided</scope> -->
 		</dependency>
 		<!-- for testing -->
 		<dependency>
@@ -188,13 +188,13 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
-	<dependency>
-            <groupId>org.mule.modules</groupId>
-            <artifactId>mule-module-json</artifactId>
-            <version>${mule.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-json</artifactId>
+			<version>${mule.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<repositories>
 		<repository>
